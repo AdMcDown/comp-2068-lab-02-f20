@@ -1,0 +1,10 @@
+p {
+    margin: 15px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(92, 21, 88);
+    width: 400px;
+    color: gold;
+    display: flex;
+    justify-content: center;
+}

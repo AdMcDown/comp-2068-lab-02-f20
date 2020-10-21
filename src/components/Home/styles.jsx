@@ -2,18 +2,26 @@ import styled from 'styled-components';
 
 export default {
     Button: styled.button`
-        margin: 0 auto;
+        margin: 15px auto;
         padding: 10px;
         color: yellow;
         background-color: blue;
         display: flex;
         justify-content: center;
+        text-decoration: none;
+
+        div {
+            color: yellow;
+        }
     
         :hover {
-            text-decoration: none;
+            div {
+                color: purple;
+                text-decoration: none;
+            }
+            
             background-color: lightgreen;
-            color: purple;
             padding: 15px;
         }
     `
-};
+}

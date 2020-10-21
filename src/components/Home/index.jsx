@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Link to="../About">
-        <Styles.Button>About</Styles.Button>
-      </Link>
+      <Styles.Button>
+        <Link to="../About"><div>About</div></Link>
+      </Styles.Button>
     </>
   );
 }
